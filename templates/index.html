@@ -7,22 +7,24 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <title>YINGYING WANG</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href='{{ url_for("static", filename="assets/img/favicon.ico") }}' />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href='{{ url_for("static", filename="css/styles.css") }}' rel="stylesheet" />
 </head>
 
-<body id="page-top">
+<body id="page-top", style="background-image: url({{ url_for('static', filename='assets/img/concrete.jpg') }})">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Yingying Wang</span>
-      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="" /></span>
+      <span class="d-block d-lg-block">
+        <a class="pb-lg-4 navbar-text" lang="zh-Hans" href="{{ url_for('zhongwen') }}">中文</a></span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='{{ url_for("static", filename="assets/img/personal.png") }}' alt="" /></span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
         class="navbar-toggler-icon"></span></button>
@@ -188,7 +190,7 @@
           </ul>
         </div>
         <!-- <div class="mb-5"> -->
-        <div class="subheading">Computer Skills</div>
+        <div class="subheading mb-3">Computer Skills</div>
         <ul class="fa-ul mb-0">
           <li>
             <span class="fa-li"><i class="fas fa-pencil-ruler text-warning"></i></span>
@@ -249,7 +251,7 @@
               <h3 class="mb-0">Contract Administrator</h3>
               <div class="subheading mb-3">JNC Group Australia Pty Ltd</div>
             </div>
-            <div class="flex-shrink-0 mb-3"><span class="text-primary">Apr 2019 - Jan 2021</span></div>
+            <div class="flex-shrink-0 mb-3"><span class="text-primary">Apr 2019 to Jan 2021</span></div>
           </div>
           <p class="text-justify">JNC Group is a national construction group with offices in cities and regions across Australia. I was hired as the only contract administrator
             in Sydney to provide support across public and private sector projects with duties including:</p>
@@ -262,7 +264,7 @@
               of the contract.</li>
             <li class="mb-2">Preparing scopes of work, tender packages and RFQs to procure goods, materials, trades and services within the budgets
               and timeframe. Sourcing new contractors and suppliers if required to achieve project goals.</li>
-            <li class="mb-2y">Reviewing tender submissions to recommend contract award and prepare and negotiate subcontracts, ensuring alignment
+            <li class="mb-2">Reviewing tender submissions to recommend contract award and prepare and negotiate subcontracts, ensuring alignment
               with the head contract.</li>
             <li class="mb-2">Administering contracts and draft/review contract claims, variations and EOTs, negotiating to resolve any commercial
               disputes.</li>
@@ -457,7 +459,7 @@
   <!-- Third party plugin JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+  <script src='{{ url_for("static", filename="js/scripts.js") }}'></script>
 </body>
 
 </html>
