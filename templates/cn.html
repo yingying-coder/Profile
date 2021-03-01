@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>YINGYING WANG</title>
+  <link rel="icon" type="image/x-icon" href='{{ url_for("static", filename="assets/img/favicon.ico") }}' />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href='{{ url_for("static", filename="css/styles.css") }}' rel="stylesheet" />
+</head>
+
+<body id="page-top" style="background-image: url({{ url_for('static', filename='assets/img/concrete.jpg') }})">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">王迎莹</span>
+
+      <span class="d-block d-lg-block">
+        <a class="pb-lg-4 navbar-text" lang="en" href="{{ url_for('home') }}">English</a></span>
+
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='{{ url_for("static", filename="assets/img/personal.png") }}' alt="" /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">个人简介</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">主要技能</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育背景</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">工作经历</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">主要成果</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">资质证书</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Page Content-->
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0">
+          王迎莹
+<!--          <span class="text-primary">Wang</span>-->
+        </h1>
+        <div class="subheading mb-5">
+          澳大利亚新南威尔士州 · (61) 0452 350 515 ·
+          <a target="_blank" href="mailto:wangyingying2404@outlook.com">wangyingying2404@outlook.com</a>
+        </div>
+        <p class="lead text-justify mb-5">资深建筑工程项目管理专家专注于项目合同管理，招标采购以及成本控制。海内外从业经历超过二十年，既包括做为业主方对政府代建项目实施从设计到竣工移交全周期建设管理，也包括作为总承包方以及专业承包方施工管理。</p>
+        <p class="lead text-justify mb-5">擅长运用策略，方法并注重细节，拥有降低项目商业风险，解决问题和实现各方利益最大化的实操能力。曾经帮公司优化合同管理系统，增加项目现金流和利润，成功解决大量复杂的项目索赔和争议。</p>
+        <p class="lead text-justify mb-5">毕业于建筑管理工程专业并从业于该领域，专业的工程背景知识和全面的建筑行业理解增强了本人实现项目商业目标的卓越能力。通过合同和技术方面的知识，结合强大的沟通和谈判技巧，能够在项目建设过程中建立并维护强健的项目各利益方关系以实现顺利合作。</p>
+        <div class="social-icons">
+          <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/yingyingwang01/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" class="social-icon" href="https://github.com/yingying-coder"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-5">主要技能</h2>
+        <div class="mb-5">
+          <div class="subheading mb-3">合同管理</div>
+          <p>精通中国与澳洲工程施工合同条款和招投标文件，熟悉合同法，建筑法和招投标法；熟悉FIDIC合同体系和运用。</p>
+        </div>
+        <div class="mb-5">
+          <div class="subheading mb-3">成本管理</div>
+          <p>概预算，工程进度款，成本报表以及现金流管理。</p>
+        </div>
+        <div class="mb-5">
+          <div class="subheading mb-3">采购招标</div>
+          <p>制定招标采购策略，准备招标文件包括招标范围和评标方法，评标，合同谈判及订立。</p>
+        </div>
+        <div class="mb-5">
+          <div class="subheading mb-3">合同谈判</div>
+          <p>擅长各种总承包合同和分包合同的谈判。分析合同范围，识别风险并制定谈判策略降低风险。</p>
+        </div>
+        <div class="mb-5">
+          <div class="subheading mb-3">项目管理</div>
+          <p>多种项目建设模式从施工模式，设计施工模式，交钥匙模式，到项目管理模式。</p>
+        </div>
+        <div class="mb-5">
+          <div class="subheading mb-3">供应链和承包商管理</div>
+        </div>
+        <div class="subheading mb-3">IT技能</div>
+        <p>精通微软办公软件，Project应用软件， Aconex软件，Vista ERP软件，SpendMap采购软件和Planswift造价软件；能够熟练运用Excel，SQL， Access以及Python进行数据分析。</p>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-5">教育背景</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">哈尔滨工业大学</h3>
+            <div class="subheading mb-3">工学学士</div>
+            <div>建筑管理工程</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">1994 - 1998</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">华南理工大学</h3>
+            <div class="subheading mb-3">工程硕士</div>
+            <div>工业工程</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2003 - 2006</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">澳大利亚TAFE</h3>
+            <div class="subheading mb-3">四级证书</div>
+            <div>合同与采购</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2017 - 2017</span></div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-5">工作经历</h2>
+        <div class="flex-column flex-md-row mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">合同主管</h3>
+              <div class="subheading mb-3">JNC Group Australia Pty Ltd，悉尼</div>
+            </div>
+            <div class="flex-shrink-0 mb-3"><span class="text-primary">2019年4月 - 2021年1月</span></div>
+          </div>
+          <p class="text-justify">JNC集团是一家从事建筑和市政工程总承包和专业分包的澳洲建筑集团公司，主要承包各级政府工程。作为集团唯一的合同主管本人职责包括：</p>
+          <ul class="text-justify">
+            <li class="mb-2">在投标阶段审核招标文件和合同文件，分析识别风险并提供策略建议供管理层决策；准备合同响应文件等协助投标团队完成标书和报价。</li>
+            <li class="mb-2">制订合同谈判策略，确保公司风险可控和利益最大化，并同时符合公司的程序制度。</li>
+            <li class="mb-2">签订合同后向项目管理部进行合同交底。</li>
+            <li class="mb-2">制作招标文件为项目采购供应商和分包商，确保招标采购与项目的施工进度和成本计划一致。评审标书并进行分包合同谈判。</li>
+            <li class="mb-2">合同执行管理包括合同变更索赔，进度和成本报表，分包合同索赔审核，解决争议。</li>
+          </ul>
+        </div>
+        <div class="flex-column flex-md-row mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">合同经理</h3>
+              <div class="subheading mb-3">Myriad Projects (Aust) Pty Ltd., 悉尼</div>
+            </div>
+            <div class="flex-shrink-0 mb-3"><span class="text-primary">2017年8月 - 2019年3月</span></div>
+          </div>
+          <p class="text-justify">Myriad是一家专业承包干式墙体施工安装及粉刷的工程公司，主要承接工程为悉尼住宅楼项目。作为合同经理本人负责所有同时在建的多个项目的合同执行管理，主要职责包括：</p>
+          <ul class="text-justify">
+            <li class="mb-2">概预算和投标报价。</li>
+            <li class="mb-2">招标采购供应商和分包商。</li>
+            <li class="mb-2">全过程合同管理包括工程分包，进度款索赔，变更索赔，合同结算确保工程收益最大化。</li>
+            <li class="mb-2">造价管理，成本分析及报表，现金流管理。</li>
+            <li class="mb-2">建立合同及成本管理系统，优化工作流程，提高效益。</li>
+            <li class="mb-2">供应链及承包商管理。</li>
+            <li class="mb-2">为公司建立一套合同管理与成本控制管理系统，与原有的财务系统衔接，优化工程付款审核支付，增强项目收益和成本支出的监控，提高项目现金流和利润。</li>
+            <li class="mb-2">密切跟踪现场实际施工的细节变化，最大程度地利用合同条款进行变更索赔。曾经在一个高层住宅项目中通过合理变更结算使最终利润比预算提高20%。</li>
+          </ul>
+        </div>
+        <div class="flex-column flex-md-row mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">合同主管</h3>
+              <div class="subheading mb-3">远大澳洲公司，悉尼</div>
+            </div>
+            <div class="flex-shrink-0 mb-3"><span class="text-primary">2016年10月 - 2017年1月</span></div>
+          </div>
+          <p class="text-justify">远大是全球最大建筑幕墙制作及承包商之一。该职位主要为一竣工项目整理所有变更索赔并准备结算：</p>
+          <ul class="text-justify">
+            <li class="mb-2">分析主合同条款，承包范围，与工程竣工图纸和分包商的变更索赔对比，完成并整理所有主合同相关的变更索赔资料数据和金额。</li>
+            <li class="mb-2">审核分包商的变更索赔。</li>
+            <li class="mb-2">制作结算款索赔资料，准备提交客户。</li>
+          </ul>
+        </div>
+        <div class="flex-column flex-md-row mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">合同经理/项目经理</h3>
+              <div class="subheading mb-3">广州工程总承包集团有限公司</div>
+            </div>
+            <div class="flex-shrink-0 mb-3"><span class="text-primary">2004年10月 — 2016年5月</span></div>
+          </div>
+          <p class="text-justify">广州工程总承包集团是以建筑施工、工程服务和房产开发为核心业务，以建筑设计、物业管理为关联业务的大型国有企业。本人主要参与现代工程服务业务，作为代建方为政府代建项目提供项目管理服务。</p>
+          <ul class="text-justify">
+            <li class="mb-2">审核项目范围和总预算提交项目业主和财局审批。</li>
+            <li class="mb-2">制作招标采购计划和策略并确保与项目总进度计划和预算一致。</li>
+            <li class="mb-2">组织项目利益方讨论项目各个工程范围和需求，起草招标文件和合同文件。</li>
+            <li class="mb-2">管理招标采购流程确保符合招投标法律法规以及政府工程工作流程。</li>
+            <li class="mb-2">组织并参与标书评比和合同谈判，负责授予签定前的合同评审。</li>
+            <li class="mb-2">负责合同实施管理包括审核工程进度款和变更索赔，争议的谈判与解决。</li>
+            <li class="mb-2">负责合同管理团队的建议与管理，对所有合同主管的工作进行审核并提供支持。</li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">合同经理</h3>
+            <div class="subheading mb-3">蒂森克虏伯电梯（中国）</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">2001年9月 - 2004年10月</span></div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">造价工程师</h3>
+            <div class="subheading mb-3">中山盛兴幕墙有限公司</div>
+          </div>
+          <div class="flex-shrink-0"><span class="text-primary">1998年8月 - 2001年5月</span></div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- portfolio-->
+    <section class="resume-section" id="portfolio">
+      <div class="resume-section-content">
+        <h2 class="mb-5">主要成果</h2>
+        <ul class="fa-ul mb-0">
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              Coffs Harbour医院扩建项目市政工程，新南威尔士州</div>
+            <div class="flex-shrink-0"><span class="text-primary">$3M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              Goonumbla光伏发电厂项目安装工程，新南威尔士州</div>
+            <div class="flex-shrink-0"><span class="text-primary">$7M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              西悉尼机场高强安保围栏供货与安装工程，新南威尔士州</div>
+            <div class="flex-shrink-0"><span class="text-primary">$10M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              多个高层住宅楼墙体安装和装饰工程，悉尼</div>
+            <div class="flex-shrink-0"><span class="text-primary">$20M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              <a target="_blank" href="https://www.yuanda.com.au/shop/item/new-royal-adelaide-hospital">
+                阿德莱得新皇家医院幕墙工程</a>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">$50M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Guangzhou_Library">
+                广州新图书馆建设项目代建管理</a>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">¥1B+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              <a target="_blank" href="http://www.ciefc.com/en/">
+                广交会场馆（琶洲）二三期建设项目代建管理</a>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">¥2B+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              广州市第一人民院新内科楼建设项目代建管理</div>
+            <div class="flex-shrink-0"><span class="text-primary">¥150M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              广州南沙麒麟新城安置房建设项目代建管理</div>
+            <div class="flex-shrink-0"><span class="text-primary">¥500M+</span></div>
+          </li>
+          <li class="mb-2 d-flex flex-column flex-md-row justify-content-between">
+            <div class="mb-3"><span class="fa-li"><i class="fas fa-hard-hat text-warning"></i></span>
+              广州南沙采石城复绿项目代建管理</div>
+            <div class="flex-shrink-0"><span class="text-primary">¥300M+</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Awards-->
+    <section class="resume-section" id="certifications">
+      <div class="resume-section-content">
+        <h2 class="mb-5">资质证书</h2>
+        <ul class="fa-ul mb-0">
+          <li class="mb-2">
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            注册一级建造师（房建）
+          </li>
+          <li class="mb-2">
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            注册咨询（投资）工程师
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+            注册造价工程师
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Core theme JS-->
+  <script src='{{ url_for("static", filename="js/scripts.js") }}'></script>
+</body>
+
+</html>
