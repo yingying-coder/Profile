@@ -67,6 +67,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #D3D3D3;
+
   background-size: contain;
   background-attachment: scroll;
   /* background-repeat: repeat-y; */
